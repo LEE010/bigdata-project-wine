@@ -1,15 +1,20 @@
 {% extends 'base.html' %}
-
 {% block content %}
-<!-- Page Header -->
 {% load static %}
+
+<!-- Page Header -->
+<<<<<<< HEAD
+<header class="masthead" id='infohead' style="background-image:url('/static/img/wine-1.jpg')">
+=======
+
 {% for message in messages %}
 <script>
     alert('{{ message }}');
 </script>
 {% endfor %}
 
-<header class="masthead" style="background-image: url('/static/img/wine-1.jpg')">
+<header class="masthead" style="background-image: url('https://cdn.pixabay.com/photo/2017/01/04/13/57/wine-1952051_960_720.jpg')">
+>>>>>>> 7538db8837ab4a58b8936a56f6137cdb8c420ad8
   <div class="overlay"></div>
     <div class="container">
       <div class="row">
