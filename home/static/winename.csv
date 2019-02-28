@@ -1,0 +1,269 @@
+,names,cl
+0,2003 Bordeaux,E
+1,2010,E
+2,667 Pinot Noir,D
+3,7 Deadly Zins,C
+4,Alexander Valley Cabernet Sauvignon,C
+5,Alexander Valley Reserve Cabernet Sauvignon,D
+6,Ancient Vines Zinfandel,C
+7,Anderson Valley Pinot Noir,E
+8,Barbera D' Alba,E
+9,Black,E
+10,Bordeaux,E
+11,Bristol Cream Sherry,E
+12,Broquel Malbec,E
+13,Burgundy,A
+14,Cabernet,C
+15,Cabernet Franc,E
+16,Cabernet Paso Robles,D
+17,Cabernet Sauvignon,C
+18,Cabernet Sauvignon 2015,A
+19,Cabernet Sauvignon Alexander Valley,C
+20,Cabernet Sauvignon California,C
+21,Cabernet Sauvignon California 2007,C
+22,Cabernet Sauvignon California 2008,D
+23,Cabernet Sauvignon Napa Valley,E
+24,Cabernet Sauvignon Paso Robles 2005,C
+25,Cabernet Sauvignon Sonoma County,C
+26,Cabernet Sauvignon Wine,E
+27,"Cabernet Sauvignon, California",C
+28,"Cabernet Sauvignon, California, 2005",A
+29,"Cabernet Sauvignon, California, 2006",D
+30,"Cabernet Sauvignon, California, 2011",D
+31,"Cabernet Sauvignon, Central Coast, 2007",D
+32,"Cabernet Sauvignon, Central Coast, 2011",E
+33,"Cabernet Sauvignon, Mendoza, Argentina, 2009",E
+34,"Cabernet Sauvignon, Paso Robles, 2012",D
+35,"Cabernet Sauvignon, Vintage 2011",A
+36,California Cabernet Sauvignon,C
+37,California Cabernet Sauvignon Wine,E
+38,California Merlot,C
+39,California Petite Sirah,A
+40,California Pinot Noir,A
+41,California Red Wine,D
+42,Cardinal Zin Beastly Old Vines Zinfandel,A
+43,Carneros Pinot Noir,D
+44,Cashmere,C
+45,Central Coast Cabernet Sauvignon,D
+46,Central Coast Merlot,A
+47,Chianti,E
+48,Chianti Classico,A
+49,Chianti Classico Tuscany,E
+50,"Chianti Classico, 2006",A
+51,Chianti Superiore,E
+52,Coastal Pinot Noir,E
+53,Cork Dancer Pinot Noir,D
+54,Crush Red Blend,A
+55,Decoy Red,A
+56,Diablo Cabernet,A
+57,Diamond Collection Red Label Zinfandel,C
+58,Director's Cut Pinot Noir,A
+59,Essential Red,C
+60,Garnacha,D
+61,Grand Estates Cabernet Sauvignon,A
+62,Grand Reserve Sonoma County Merlot,A
+63,Harvest Red Blend,A
+64,Hot To Trot Red Blend,C
+65,Incredible Red Zinfandel,A
+66,Indian Wells Merlot,A
+67,Julia's Vineyard Pinot Noir,D
+68,Kali Hart Pinot Noir,E
+69,Knights Valley Cabernet Sauvignon,D
+70,Lambrusco,A
+71,Liar's Dice Zinfandel,A
+72,Los Osos Merlot,A
+73,Louis Jadot,A
+74,Malbec,D
+75,Malbec 2013,C
+76,Malbec Mendoza,D
+77,Meritage,D
+78,Merlot,E
+79,Merlot California,C
+80,Merlot Napa Valley,C
+81,"Merlot Napa Valley, 2004",A
+82,Merlot Wine,A
+83,"Merlot, California",C
+84,"Merlot, California 2013",A
+85,"Merlot, California, 2004",A
+86,"Merlot, California, 2007",C
+87,"Merlot, Central Coast",A
+88,"Merlot, Columbia Valley, 2007",A
+89,Monterey County Pinot Noir,C
+90,"Moscato, D'Asti, DOCG, 2011",E
+91,Napa Valley Cabernet Sauvignon,E
+92,Napa Valley Merlot,C
+93,Napa Valley Zinfandel Wine,C
+94,Old Vine Zin,A
+95,Old Vine Zinfandel,A
+96,Old Vines Zinfandel Wine,A
+97,Oregon Pinot Noir,A
+98,Organic Malbec,C
+99,Organic Pinot Noir,E
+100,Paraduxx Z Red Blend,A
+101,Petite Sirah,A
+102,Pinot Noir,E
+103,Pinot Noir California,A
+104,Pinot Noir Marlborough,A
+105,Pinot Noir Monterey,A
+106,Pinot Noir Sonoma Coast,C
+107,Pinot Noir Wine,C
+108,"Pinot Noir, California",A
+109,"Pinot Noir, California 2010",C
+110,"Pinot Noir, California, 2010",C
+111,"Pinot Noir, California, 2011",D
+112,"Pinot Noir, Central Coast, 2006",D
+113,"Pinot Noir, Vin de Pays d'Oc, 2006",C
+114,Platinum Merlot,A
+115,Private Selection Pinot Noir,D
+116,Red,E
+117,Red Blend,E
+118,Red Blend Wine,A
+119,Red Blend Winemaker's Blend,C
+120,Red Wine,A
+121,Red Wine Blend,A
+122,Reserve Cabernet Sauvignon Wine,A
+123,Reserve Pinot Noir,E
+124,Rich Red Blend,D
+125,Rioja Reserva,A
+126,Rioja Tempranillo,D
+127,Riserva Ducale Chianti Classico,E
+128,Russian River Pinot Noir,C
+129,Russian River Pinot Noir Wine,C
+130,Russian River Valley Reserve Pinot Noir,C
+131,Sangiovese,E
+132,Shiraz,E
+133,Shiraz Cabernet,E
+134,Shiraz Cabernet Sauvignon Wine,D
+135,Shiraz Wine,A
+136,Sin Zin,A
+137,Sleepy Hollow Pinot Noir,E
+138,Sonoma Coast Pinot Noir,C
+139,Sonoma County Cabernet Sauvignon,C
+140,Sonoma Pinot Noir Wine,D
+141,Sonoma Zinfandel,E
+142,Starmont Cabernet Sauvignon Napa Valley,A
+143,Sweet Red,E
+144,Syrah,E
+145,Syrah Paso Robles,A
+146,Tapestry Napa Valley,D
+147,Tempranillo,D
+148,Terra D'oro Zinfandel Amador County,A
+149,The Prisoner Blend,C
+150,Woodbridge Cabernet Sauvignon,D
+151,Zinfandel,A
+152,Zinfandel Dry Creek,A
+153,Zinfandel Heritage,A
+154,Zinfandel Wine,A
+155,"Zinfandel, California, 2010",A
+156,"Zinfandel, Lodi, California",C
+0,Albarino Rias Baixas,G
+1,Alto Adige Pinot Grigio,G
+2,Avant California Chardonnay,H
+3,Benchbreak Chardonnay,B
+4,Bianco,G
+5,Blanc,H
+6,Blanc De Noirs,F
+7,California Chardonnay,G
+8,California Chenin Blanc,G
+9,California Pinot Grigio,G
+10,Central Coast 2011 Chardonnay,H
+11,Central Coast Chardonnay,B
+12,Chablis,B
+13,Chalk Hill Chardonnay,F
+14,Chardonnay,G
+15,Chardonnay California,G
+16,Chardonnay California 2009,F
+17,Chardonnay Carneros,F
+18,Chardonnay Monterey,H
+19,Chardonnay Monterey County California,H
+20,Chardonnay Napa,B
+21,Chardonnay Napa Valley,B
+22,Chardonnay Paso Robles,F
+23,Chardonnay Santa Barbara County 2005,G
+24,Chardonnay Sonoma,F
+25,Chardonnay Sonoma Coast 2008,F
+26,Chardonnay Wine,G
+27,"Chardonnay, California, 2012",F
+28,"Chardonnay, Central Coast",B
+29,"Chardonnay, Columbia Valley, 2006",H
+30,"Chardonnay, Napa Valley, 2013",H
+31,Chenin Blanc,B
+32,Chenin Blanc Viognier,H
+33,Coastal Chardonnay Wine,H
+34,Cotes Du Rhone,G
+35,Cotes Du Rhone Blanc,G
+36,Diamond Sauvignon Blanc,B
+37,Edna Valley Chardonnay,F
+38,Fume Blanc Sonoma County,B
+39,Gewurztraminer Wine,G
+40,Grand Reserve Chardonnay,F
+41,Grenache Blanc,H
+42,Gruner Veltliner,B
+43,Grüner Veltliner,B
+44,Karia Chardonnay,H
+45,Menage a Trois,H
+46,Mendocino Chardonnay,F
+47,Monterey Pinot Gris,G
+48,Morning Fog Chardonnay,G
+49,Moscato,G
+50,Moscato D'Asti,F
+51,"Moscato, Napa Valley",G
+52,Napa Reserve Chardonnay Wine,B
+53,Napa Valley Chardonnay,B
+54,Northern Sonoma Chardonnay,F
+55,Oakville,H
+56,Organic Chardonnay,G
+57,Organic Sauvignon Blanc,H
+58,Pinot Grigio,G
+59,Pinot Grigio Central Coast 2006,B
+60,Pinot Grigio Delle Venezie,G
+61,Pinot Grigio Wine,H
+62,"Pinot Grigio, California",G
+63,"Pinot Grigio, California, 2006",B
+64,"Pinot Grigio, California, 2010",H
+65,"Pinot Grigio, California, 2011",H
+66,"Pinot Grigio, DOC Trentino, 2009",G
+67,"Pinot Grigio, Delle Venezie",G
+68,Pinot Gris,G
+69,Pouilly Fuisse France,B
+70,Private Bin Sauvignon Blanc,B
+71,Relax Riesling,G
+72,Riesling,H
+73,Riesling Blue Qba,B
+74,Riesling Central Coast,G
+75,Riesling Wine,B
+76,"Riesling, Mosel, 2014",B
+77,Riverstone Chardonnay,B
+78,Robert Mondavi,H
+79,Sancerre,G
+80,Sauvignon,H
+81,Sauvignon Blanc,G
+82,Sauvignon Blanc Awatere Valley Marlborough,G
+83,Sauvignon Blanc Napa Valley 2006,G
+84,Sauvignon Blanc Wine,B
+85,"Sauvignon Blanc, California, 2011",G
+86,"Sauvignon Blanc, California, 2013",H
+87,"Sauvignon Blanc, Marlborough",B
+88,"Sauvignon Blanc, Mendocino, 2007",H
+89,"Sauvignon Blanc, Monterey, 2011",H
+90,"Sauvignon Blanc, Napa County",F
+91,"Sauvignon Blanc, Napa Valley, 2009",H
+92,Shaly Loam Gewürztraminer,G
+93,Signature Collection Oregon Pinot Gris,H
+94,Sonoma Chardonnay,F
+95,Sonoma County Chardonnay,B
+96,Sonoma County Chardonnay Wine,F
+97,Sonoma County Sauvignon Blanc,H
+98,Starmont Chardonnay,H
+99,Steelbird Unoaked Chardonnay,H
+100,The Cutrer Chardonnay,F
+101,Unoaked Chardonnay,G
+102,Vinho Verde,G
+103,Vintner's Reserve Chardonnay,B
+104,Vintner's Reserve Johannisberg Riesling,H
+105,Viognier,G
+106,White Bordeaux,H
+107,White Merlot,B
+108,White Wine,B
+109,William Fevre Chablis Champs Royaux France,G
+110,Wine Sonoma County Chardonnay,F

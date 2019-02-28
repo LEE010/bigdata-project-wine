@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('https://cdn.pixabay.com/photo/2015/11/30/23/32/champagner-1071356_960_720.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto text-center">
+        <div class="post-heading">
+          <h1>와인 품질 평가 결과 확인</h1>
+          <h2 class="subheading">입력한 와인 성분을 통해 예측한 와인 품질 등급입니다.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Post Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <h1>와인 품질 평가 결과</h1>
+      <div class="text-right">
+        <h2>{{Y}}등급</h2>
+      </div>
+      <hr>
+      <h3>주요 성분</h3>
+      <p>
+        {%for k,v in X.items%}
+          {{k}}:{{v}} <br>
+        {%endfor%}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

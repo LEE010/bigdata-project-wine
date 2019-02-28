@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Page Header -->
+
+{% for message in messages %}
+<script>
+    alert('{{ message }}');
+</script>
+{% endfor %}
+
+<header class="masthead" style="background-image: url('https://cdn.pixabay.com/photo/2017/01/04/13/57/wine-1952051_960_720.jpg')">
+  <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>와인 추천 시스템</h1>
+            <span class="subheading">머신러닝 기반의 추천 시스템을 이용해보세요.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <h3>신상정보 입력</h3>
+      <br>
+      <form action="{% url 'recommend' %}">
+
+        <div class="form-row">
+          <div class="form-group col">
+            <label for="genderSelect">성별</label>
+            <select class="form-control" id="genderSelect" name="genderSelect">
+              <option value=""disabled selected>성별선택</option>
+              <option value="male">남성</option>
+              <option value="female">여성</option>
+            </select>
+          </div>
+
+          <div class="form-group col">
+            <label for="ageSelect">연령대</label>
+            <select class="form-control" id="ageSelect" name="ageSelect">
+              <option value="" disabled selected>연령대선택</option>
+              <option value="20">20대</option>
+              <option value="30">30대</option>
+              <option value="40">40대</option>
+              <option value="50">50대 이상</option>
+            </select>
+          </div>
+
+          <div class="form-group col">
+            <label for="jobSelect">직업</label>
+            <select class="form-control" id="jobSelect" name="jobSelect">
+              <option value=""disabled selected>직업선택</option>
+              <option value="salary">직장인</option>
+              <option value="student">학생</option>
+              <option value="professional">전문직</option>
+              <option value="self-employment">자영업</option>
+              <option value="temporary">임시직</option>
+            </select>
+          </div>
+
+        </div>
+
+        <div class="text-right form-group">
+          <button type="submit" class="btn btn-primary mb-2 text-right">확인</button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+{% endblock %}

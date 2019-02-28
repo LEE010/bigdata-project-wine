@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+
+<header class="masthead" style="background-image: url('https://cdn.pixabay.com/photo/2017/01/04/13/57/wine-1952051_960_720.jpg')">
+  <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>와인 추천 시스템</h1>
+            <span class="subheading">5가지 와인을 추천해 드립니다. 확인해보세요!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+<div class="container">
+  <h3>추천 와인 리스트</h3>
+  <div class="text-right">
+    <a href="{%url 'input-info' %}" class="btn btn-primary">Info-input</a>
+  </div>
+  {%for wine,taste,words,anju in result%}
+  <div class="card-deck">
+    <div class="card" >
+      <div class="row no-gutters">
+        <div class="col-md-3">
+          <img src="http://file.mk.co.kr/meet/neds/2017/03/image_readtop_2017_170177_14893662542801780.jpg" class="card-img" style='width:9rem; hight:15rem'>
+        </div>
+
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title">{{wine.name}}</h5>
+
+
+            <p class="card-text text-right">
+              <a class="badge badge-warning"> WS {{wine.score}}</a><br>
+              <strong>price: {{wine.price}}$</strong></p>
+              <p>
+                {%for word in words%}
+                #{{word.word}}
+                {%endfor%}
+              </p>
+              <p>
+                추천 안주:
+                {%for food in anju%}
+                {{food}},
+                {%endfor%}
+                등
+              </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-body">
+            <h5 class="card-title">Taste Chart</h5>
+            <p><canvas id="myChart{{wine.id}}"></canvas></p>
+
+            <script>
+              var ctx = document.getElementById("myChart"+{{wine.id}}).getContext("2d");
+              var chart = new Chart(ctx, {
+                  // The type of chart we want to create
+                  type: 'radar',
+
+                  // The data for our dataset
+                  data: {
+                      labels: ["당도", "알콜", "농도", "과일향", "오크향", "깊이"],
+                      datasets: [{
+                          backgroundColor: 'rgba(255, 99, 132,0.6)',
+                          borderColor: 'rgba(255, 99, 132,0.6)',
+                          data: {{taste}},
+                      }]
+                  },
+                  options:
+                  {
+                    scale:
+                    {
+                      ticks:
+                      {
+                        min:0,max:3,stepSize:1
+                      }
+                    },
+                    legend:
+                    {
+                      display: false,
+                    }
+                  },
+
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {%endfor%}
+</div>
+
+
+
+
+{% endblock %}
