@@ -1,3 +1,3 @@
 # bigdata-project-wine
-**Django**  
+**Django, Bootstrap**  
 https://warm-ocean-85076.herokuapp.com
